@@ -1,0 +1,129 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  color: #111;
+  min-height: 400px;
+}
+
+.questionBox {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 820px;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #d0d5dc;
+}
+
+.infoIcon {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  background: #1a5cb5;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.questionText {
+  margin: 0;
+  color: #1a5cb5;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.sceneBox {
+  width: 100%;
+  max-width: 820px;
+  background: #f0f4f8;
+  border: 1px solid #c8d0da;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+}
+
+.sceneLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.sceneText {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #222;
+  line-height: 1.6;
+}
+
+.sceneImage {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+}
+
+.timerWidget {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #e9ecef;
+  border-radius: 6px;
+  padding: 0.85rem 2rem;
+  min-width: 240px;
+}
+
+.clockIcon {
+  font-size: 2rem;
+  opacity: 0.55;
+}
+
+.timerLabel {
+  font-size: 0.9rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.timerCount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a5cb5;
+  line-height: 1;
+}
+
+.hints {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  width: 100%;
+  max-width: 820px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hints li {
+  font-size: 1rem;
+}
+
+.bold {
+  font-weight: 700;
+  color: #111;
+}
+
+.muted {
+  color: #888;
+  font-weight: 400;
+}

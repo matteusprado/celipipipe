@@ -1,0 +1,54 @@
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.6rem 1rem;
+  background: #e9ecef;
+  border-bottom: 1px solid #c8cdd3;
+  color: #1a1a1a;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.timer {
+  font-size: 0.85rem;
+  color: #444;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 2px solid transparent;
+}
+
+.active {
+  border-color: #c0392b;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.nextBtn {
+  background: #1a5cb5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+
+.nextBtn:hover {
+  background: #154ea3;
+}

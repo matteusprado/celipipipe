@@ -1,0 +1,495 @@
+{
+  "version": 1,
+  "section": "reading",
+  "variantLabel": "Practice Test A (official sample structure)",
+  "parts": [
+    {
+      "number": 1,
+      "timeSeconds": 600,
+      "title": "Reading Part 1: Reading Correspondence",
+      "passage": "Hi Mea,\n\nI'm sorry for taking so long to reply to your email. As you know, I've been very busy this summer with Marco's university graduation and my family's visit from Chile. The graduation ceremony was great! Too bad you guys couldn't make it, but we understand it's a bit of a drive from Calgary. You were truly missed. My Mum remembers you well from when we were kids. After the celebrations, we took the family sightseeing here in Vancouver. They loved it! They left yesterday for Victoria, and will catch a plane back home from there in three days.\n\nJust when we thought things would slow down, Marco broke the news that he had accepted a job offer in Tokyo. He leaves at the end of the month! He was invited to work at a top engineering firm that specializes in rebuilding cities after large disasters. Needless to say Marco is very excited about it. The firm has been really active in the reconstruction efforts following the 2011 earthquake in Japan, and it's a great first step into his career, not to mention the opportunity to experience a new culture, and learn a new language. He's a little apprehensive about communicating in Japanese but the firm has a translator and a tutor to help him.\n\nMarco is over the moon, but Jack and I are having a tougher time with it. We think he's so young to be so far away, but we know it's for the best. Just the other day Jack and I were talking about that trip all of us took to Disneyland when the kids were little, do you remember that? It's been 20 years! Time flies, doesn't it? Well, get prepared, Cindy is next!\n\nIn any event, we are planning a farewell party for friends next weekend, and Marco cannot imagine not having you, Jason and Cindy there. The party will be at his apartment. He really does not want to leave without saying goodbye to you all. We hope you can make it, after all we haven't seen you since last Christmas. Let me know so I can get the rooms ready.\n\nWe'll be in touch,\n\nLove,\nMaria",
+      "comprehensionIntro": "Using the drop-down menu, choose the best option according to the information given in the message.",
+      "comprehension": [
+        {
+          "id": "p1-1",
+          "prompt": "1. Maria's mother is now",
+          "options": ["in Chile.", "in Calgary.", "in Vancouver.", "in Victoria."],
+          "correctAnswer": "in Victoria."
+        },
+        {
+          "id": "p1-2",
+          "prompt": "2. In a few weeks, Maria's son Marco will",
+          "options": [
+            "start a new job.",
+            "return to university in Vancouver.",
+            "move back to Chile with family.",
+            "postpone his flight to Tokyo."
+          ],
+          "correctAnswer": "start a new job."
+        },
+        {
+          "id": "p1-3",
+          "prompt": "3. Marco is feeling",
+          "options": [
+            "nervous about speaking Japanese.",
+            "uninterested in learning Japanese.",
+            "angry about the job offer.",
+            "ready to leave Japan immediately."
+          ],
+          "correctAnswer": "nervous about speaking Japanese."
+        },
+        {
+          "id": "p1-4",
+          "prompt": "4. Marco's employers are",
+          "options": [
+            "specialists in town reconstruction.",
+            "travel agents for Tokyo.",
+            "university professors in Vancouver.",
+            "fitness coaches for new hires."
+          ],
+          "correctAnswer": "specialists in town reconstruction."
+        },
+        {
+          "id": "p1-5",
+          "prompt": "5. Maria and Jack are worried about",
+          "options": [
+            "Marco's lack of life experience.",
+            "the cost of the party.",
+            "Cindy's university graduation.",
+            "Mea's visit from Calgary."
+          ],
+          "correctAnswer": "Marco's lack of life experience."
+        },
+        {
+          "id": "p1-6",
+          "prompt": "6. Mea and Maria",
+          "options": [
+            "are old friends.",
+            "are coworkers.",
+            "are neighbours in Tokyo.",
+            "met only last Christmas."
+          ],
+          "correctAnswer": "are old friends."
+        }
+      ],
+      "replyIntro": "Here is a response to the message. Complete the response by filling in the blanks. Select the best choice for each blank from the drop-down menu.",
+      "replySegments": [
+        { "type": "text", "text": "Hi Maria,\n\nThis is such wonderful news! Count us in, we would hate to miss " },
+        {
+          "type": "blank",
+          "id": "p1-7",
+          "options": [
+            "the leaving party.",
+            "the graduation ceremony.",
+            "the flight to Chile.",
+            "the sightseeing tour."
+          ],
+          "correctAnswer": "the leaving party."
+        },
+        { "type": "text", "text": " We'll leave " },
+        {
+          "type": "blank",
+          "id": "p1-8",
+          "options": ["Calgary", "Vancouver", "Victoria", "Seattle"],
+          "correctAnswer": "Calgary"
+        },
+        { "type": "text", "text": " at 6am Saturday morning. We'll be there by early afternoon. That way if you need any help setting up the " },
+        {
+          "type": "blank",
+          "id": "p1-9",
+          "options": ["party,", "dinner,", "meeting,", "flight,"],
+          "correctAnswer": "party,"
+        },
+        {
+          "type": "text",
+          "text": " you'll have some extra help. Cindy is great with decorations.\n\nAlso, we want to give Marco a graduation gift. Initially we thought about a sofa for his Vancouver apartment, but I guess that "
+        },
+        {
+          "type": "blank",
+          "id": "p1-10",
+          "options": [
+            "he can't use that now.",
+            "he already bought one.",
+            "he wants a bigger desk.",
+            "he prefers a rowing machine."
+          ],
+          "correctAnswer": "he can't use that now."
+        },
+        {
+          "type": "text",
+          "text": " Do you have any suggestions? Does he have everything he needs for the "
+        },
+        {
+          "type": "blank",
+          "id": "p1-11",
+          "options": [
+            "move to Tokyo?",
+            "stay in Vancouver?",
+            "trip to Victoria?",
+            "visit from Chile?"
+          ],
+          "correctAnswer": "move to Tokyo?"
+        },
+        {
+          "type": "text",
+          "text": " Winter clothes, perhaps?\n\nLet me know, and see you on Saturday!\n\nLove,\nMea"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "timeSeconds": 540,
+      "title": "Reading Part 2: Reading to Apply a Diagram",
+      "diagramTitle": "Travel options (Vancouver to Seattle area)",
+      "diagramItems": [
+        {
+          "mode": "Train",
+          "bullets": [
+            "first-class scenic trip along the coast",
+            "free wi-fi internet"
+          ],
+          "price": "$260 (return ticket)",
+          "duration": "4 hr, 25 min"
+        },
+        {
+          "mode": "Bus",
+          "bullets": [
+            "no checked baggage allowed",
+            "no washrooms, no stops",
+            "only morning trips to Seattle"
+          ],
+          "price": "$100 (return ticket)",
+          "duration": "3 hr, 30 min"
+        },
+        {
+          "mode": "Plane",
+          "bullets": ["in-flight snack", "free movie entertainment", "airport close to town"],
+          "price": "$240 (return ticket)",
+          "duration": "45 min"
+        },
+        {
+          "mode": "Car",
+          "bullets": [
+            "freedom to explore the city",
+            "no need to pay for cabs to and from hotel"
+          ],
+          "price": "$180 ($90 each) for gas",
+          "duration": "4 hours"
+        }
+      ],
+      "passageIntro": "Read the following email message about the diagram on the left. Complete the email by filling in the blanks. Select the best choice for each blank from the drop-down menu.",
+      "emailHeader": "Subject: Seattle conference presentation\nTo: Janice Wong <jwong@ubc.ca>\nFrom: Peter Kull <pkull@ubc.ca>",
+      "emailSegments": [
+        { "type": "text", "text": "Hi Janice,\n\nYou will find attached our presentation file. It's ready! I've also done some research on travel. Remember, the conference is a week away and we haven't decided how to get there yet. Here are our options. Buses are the " },
+        {
+          "type": "blank",
+          "id": "p2-1",
+          "options": ["least comfortable", "most luxurious", "fastest overall", "cheapest per mile"],
+          "correctAnswer": "least comfortable"
+        },
+        {
+          "type": "text",
+          "text": " because the fleet is old and there are no stopovers. The train seems more relaxed and we have plenty of time to get some work done if needed. It "
+        },
+        {
+          "type": "blank",
+          "id": "p2-2",
+          "options": ["costs more", "costs less", "takes longer than expected", "is sold out"],
+          "correctAnswer": "costs more"
+        },
+        {
+          "type": "text",
+          "text": " than I had expected, especially when compared to airfares. Plus, the "
+        },
+        {
+          "type": "blank",
+          "id": "p2-3",
+          "options": ["station", "airport", "bus depot", "hotel desk"],
+          "correctAnswer": "station"
+        },
+        {
+          "type": "text",
+          "text": " is far from the hotel. Flying would save us time, and the airport is close to the hotel and the university in case we want to visit Dr. Kitayama. Lastly, I really wouldn't mind "
+        },
+        {
+          "type": "blank",
+          "id": "p2-4",
+          "options": ["driving.", "flying first class.", "taking a taxi daily.", "canceling the trip."],
+          "correctAnswer": "driving."
+        },
+        {
+          "type": "text",
+          "text": " My car is economical and would give us flexibility to "
+        },
+        {
+          "type": "blank",
+          "id": "p2-5",
+          "options": ["go sightseeing.", "skip the conference.", "avoid Seattle traffic.", "ship our luggage."],
+          "correctAnswer": "go sightseeing."
+        },
+        {
+          "type": "text",
+          "text": " After all, we have both worked so hard on this project!\n\nBest,\nPeter"
+        }
+      ],
+      "comprehensionIntro": "Using the drop-down menu, choose the best option.",
+      "comprehension": [
+        {
+          "id": "p2-6",
+          "prompt": "6. Peter and Janice",
+          "options": [
+            "work together.",
+            "live in the same apartment.",
+            "teach at the same high school.",
+            "are cousins from Seattle."
+          ],
+          "correctAnswer": "work together."
+        },
+        {
+          "id": "p2-7",
+          "prompt": "7. The main purpose of the trip is",
+          "options": [
+            "to speak at a conference.",
+            "to go sightseeing only.",
+            "to visit Dr. Kitayama for a birthday.",
+            "to relocate permanently to Seattle."
+          ],
+          "correctAnswer": "to speak at a conference."
+        },
+        {
+          "id": "p2-8",
+          "prompt": "8. Peter seems",
+          "options": ["cooperative.", "disorganized.", "rude.", "unprepared."],
+          "correctAnswer": "cooperative."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "timeSeconds": 600,
+      "title": "Reading Part 3: Reading for Information",
+      "passageIntro": "Read the following passage.",
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "The narwhal is an endangered type of whale found in the frigid waters of the Arctic, extending from Canada through the Norwegian waters to Russia. Narwhal means \"corpse whale\", and it has earned its name because of its mottled dark grey colour. Narwhals are regularly harvested for meat and ivory in northern Canada and Greenland. Narwhals share physical characteristics with Beluga whales, having similar shape and size. Both species lack dorsal fins, have short beaks, rounded heads and a thick layer of blubber to adapt to glacial conditions."
+        },
+        {
+          "label": "B",
+          "text": "The narwhals' distinctive characteristic lies in the presence of a long 2.5 meter spiralling tusk that protrudes from the males' foreheads, resembling a unicorn. The horn-like formation, however, is a long left tooth. The right tooth remains embedded in the skull and measures roughly 30 centimeters. Female tusks have a more regularly defined morphology. They are much shorter, straighter, and do not collect as much algae on the surface, thus appearing whiter."
+        },
+        {
+          "label": "C",
+          "text": "For hundreds of years the purpose of the tusk on the \"unicorn whale\" has puzzled scientists and local aboriginal elders alike. A northern aboriginal legend explains the narwhal's tusk was created when a woman shooting with a harpoon rope was dragged into the ocean after the harpoon had struck a large narwhal whale. She then was transformed into a narwhal herself, and her hair, which was long and twisted, became the characteristic of the spiral tusk. In academic circles, the tusk remains an evolutionary mystery that defies many of the known principles of mammalian teeth. Preliminary studies suggest the tusk enables whales to determine salinity levels and allows them to detect food in their environment."
+        },
+        {
+          "label": "D",
+          "text": "Narwhal behaviour also intrigues researchers. Males frequently engage in episodes of rubbing their tusks together, or \"tusking,\" for as-yet unknown reasons. The same behaviour is not observed in the female counterparts or between females and males. Some studies theorize about the possibility of these being mating behaviours aimed at displaying genetic superiority. Support for such a theory, however, has proved scarce since unlike other mammalian species the behaviour is not aggressive. Narwhals are a migratory species. In an attempt to learn about their migration patterns and social behavior, their populations are being observed and recorded through satellite tracking conducted by scientists in Canada and Greenland."
+        }
+      ],
+      "notGivenLabel": "E",
+      "notGivenNote": "Not given in any of the above paragraphs.",
+      "matchIntro": "Decide which paragraph, A to D, has the information given in each statement below. Select E if the information is not given in any of the paragraphs.",
+      "matches": [
+        {
+          "id": "p3-1",
+          "prompt": "1. There are physical differences between narwhal males and females.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "p3-2",
+          "prompt": "2. Narwhals are also referred to as death-like.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "p3-3",
+          "prompt": "3. There are aspects of narwhals' anatomy that remain unexplained.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "p3-4",
+          "prompt": "4. Narwhals present puzzling social interactions.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "D"
+        },
+        {
+          "id": "p3-5",
+          "prompt": "5. Narwhal whales are connected to Canadian aboriginal folklore.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "p3-6",
+          "prompt": "6. There is a sound understanding of narwhals' mating behaviour.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "E"
+        },
+        {
+          "id": "p3-7",
+          "prompt": "7. Different countries are documenting narwhal behaviour patterns.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "D"
+        },
+        {
+          "id": "p3-8",
+          "prompt": "8. The narwhal population is in jeopardy.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "p3-9",
+          "prompt": "9. Narwhals' physical characteristics are also observed in other whale groups.",
+          "options": ["A", "B", "C", "D", "E"],
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "timeSeconds": 780,
+      "title": "Reading Part 4: Reading for Viewpoints",
+      "passageIntro": "Read the following article from a website.",
+      "article": "Visitors walking through Carleton High School are often surprised when they pass Bradley Gordon's French class and see students riding on exercise bikes and sitting on yoga balls. Is it a French class, or is it a gym class? Well, it's a bit of both!\n\nTwo major concerns in education are childhood obesity and ADHD, or Attention Deficit Hyperactivity Disorder, a disorder that results in restlessness, hyperactivity, and impulsivity. With high rates of obesity and also students struggling with ADHD in classes across the country, Mr. Gordon came up with an innovative intervention to address both. He decided to infuse academic studies with physical activity in his own classroom.\n\nThe idea came to Gordon after a personal experience in university while working on his bachelor's degree. \"I didn't have time to schedule a separate slot for exercise, and my health deteriorated rapidly,\" said Gordon. \"After feeling sick and fatigued for months, I decided to couple my studying with my workouts. To my surprise it proved incredibly helpful. My grades started improving and so did my overall fitness and health.\"\n\nGordon implemented the approach with his students to great effect last year. Despite the students' excitement and academic improvement, he met resistance from the school's principal, Dawn Epstein, who was not convinced that academics and physical exercise should be amalgamated. \"Although exercise is certainly important, I didn't think it had any place in academics. I assumed exercise would exacerbate ADHD,\" Epstein asserted.\n\nIt turns out Ms. Epstein's reaction is a common misconception. As Dr. John Ratney, psychiatry professor at Harvard Medical School, explains: \"Exercise turns the attention system on, and helps with working memory, prioritizing and sustaining attention.\" Sustained physical exertion causes kids to be less impulsive and more prone to learn. That's precisely what Mr. Gordon found a year into the intervention. \"My students' endurance, both physical and mental, has improved. They are fit, and eager to learn. Even students diagnosed with ADHD have displayed less physical agitation, which has helped them to learn better.\" So, when you walk by Mr. Gordon's class and see bikes spinning, know that minds are at work.",
+      "viewIntro": "Using the drop-down menu, choose the best option according to the information given on the website.",
+      "viewQuestions": [
+        {
+          "id": "p4-1",
+          "prompt": "1. This article is about",
+          "options": [
+            "a conventional high school teacher with an unconventional idea.",
+            "a gym teacher who stopped teaching languages.",
+            "a principal who banned exercise in classrooms.",
+            "a doctor who refuses to treat ADHD."
+          ],
+          "correctAnswer": "a conventional high school teacher with an unconventional idea."
+        },
+        {
+          "id": "p4-2",
+          "prompt": "2. Mr. Gordon's intervention",
+          "options": [
+            "was inspired by his own successful experience as a student.",
+            "was designed only to reduce childhood obesity.",
+            "was copied directly from Harvard Medical School.",
+            "was rejected by students when first introduced."
+          ],
+          "correctAnswer": "was inspired by his own successful experience as a student."
+        },
+        {
+          "id": "p4-3",
+          "prompt": "3. The intervention was not",
+          "options": [
+            "initially well received by the school principal.",
+            "based on Mr. Gordon's university experience.",
+            "focused on French language instruction.",
+            "popular with students last year."
+          ],
+          "correctAnswer": "initially well received by the school principal."
+        },
+        {
+          "id": "p4-4",
+          "prompt": "4. According to Dr. Ratney, exercising",
+          "options": [
+            "diminishes hyperactivity and increases attention.",
+            "has no measurable impact on learning.",
+            "should replace classroom instruction altogether.",
+            "mostly helps students with obesity only."
+          ],
+          "correctAnswer": "diminishes hyperactivity and increases attention."
+        },
+        {
+          "id": "p4-5",
+          "prompt": "5. At the one-year mark, the intervention",
+          "options": [
+            "produced the results Mr. Gordon expected.",
+            "failed because students refused to ride bikes.",
+            "was ended by the school board.",
+            "proved useless for students with ADHD."
+          ],
+          "correctAnswer": "produced the results Mr. Gordon expected."
+        }
+      ],
+      "commentIntro": "The following is a comment by a visitor to the website page. Complete the comment by choosing the best option to fill in each blank.",
+      "commentSegments": [
+        {
+          "type": "text",
+          "text": "Interesting article! I've been a high school teacher for fifteen years and I am quite dubious of Mr. Gordon's attempt to "
+        },
+        {
+          "type": "blank",
+          "id": "p4-6",
+          "options": [
+            "bring exercise into the classroom.",
+            "cancel French class permanently.",
+            "remove chairs from every school.",
+            "ignore students with ADHD."
+          ],
+          "correctAnswer": "bring exercise into the classroom."
+        },
+        {
+          "type": "text",
+          "text": " Although Dr. Ratney claims that this project "
+        },
+        {
+          "type": "blank",
+          "id": "p4-7",
+          "options": [
+            "will improve students' concentration,",
+            "will eliminate learning entirely,",
+            "is unsupported by any research,",
+            "hurts students with yoga injuries,"
+          ],
+          "correctAnswer": "will improve students' concentration,"
+        },
+        {
+          "type": "text",
+          "text": " I often find the opposite is true. Indeed, it is the students that play soccer or basketball at lunchtime that "
+        },
+        {
+          "type": "blank",
+          "id": "p4-8",
+          "options": [
+            "are most likely to fade",
+            "are always the quietest",
+            "never return to class",
+            "refuse to do homework"
+          ],
+          "correctAnswer": "are most likely to fade"
+        },
+        {
+          "type": "text",
+          "text": " in the afternoon. It would be a mistake to "
+        },
+        {
+          "type": "blank",
+          "id": "p4-9",
+          "options": [
+            "overwork the students",
+            "ignore physical activity completely",
+            "read the article carefully",
+            "support the principal's view"
+          ],
+          "correctAnswer": "overwork the students"
+        },
+        {
+          "type": "text",
+          "text": " prior to the end of a busy school day. There is also the question of time management. It simply is not possible to get through the curriculum while the students "
+        },
+        {
+          "type": "blank",
+          "id": "p4-10",
+          "options": [
+            "are bouncing around on yoga balls.",
+            "are sitting quietly at desks.",
+            "are reading in silence.",
+            "are taking notes slowly."
+          ],
+          "correctAnswer": "are bouncing around on yoga balls."
+        },
+        { "type": "text", "text": "" }
+      ]
+    }
+  ]
+}

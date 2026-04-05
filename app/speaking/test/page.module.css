@@ -1,0 +1,173 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f5f6f8;
+  color: #111;
+}
+
+.content {
+  flex: 1;
+  max-width: 1020px;
+  width: 100%;
+  margin: 1.5rem auto;
+  background: #fff;
+  border: 1px solid #d0d5dc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* ── Instructions screen (Task 5) ──────────────────────── */
+.instructionsScreen {
+  padding: 2rem;
+  min-height: 400px;
+}
+
+.instrHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.infoIcon {
+  width: 22px;
+  height: 22px;
+  background: #1a5cb5;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.instrTitle {
+  color: #1a5cb5;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.instrBody {
+  margin: 0 0 0.5rem 1.75rem;
+  font-size: 0.95rem;
+}
+
+.instrList {
+  margin: 0 0 1rem 2.5rem;
+  padding: 0;
+  list-style: decimal;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.instrCta {
+  margin: 1rem 0 0 1.75rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ── Evaluating screen ────────────────────────────────── */
+.evaluatingScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 2rem;
+}
+
+.evalSpinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  color: #333;
+}
+
+.spinner {
+  width: 44px;
+  height: 44px;
+  border: 4px solid #d0d5dc;
+  border-top-color: #1a5cb5;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.evalSub {
+  color: #888;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.evalError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: #b91c1c;
+  text-align: center;
+}
+
+.skipBtn {
+  background: #1a5cb5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* ── Loading ─────────────────────────────────────────── */
+.loadingWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.loadingText {
+  color: #888;
+  font-size: 1rem;
+}
+
+/* ── Task progress dots ───────────────────────────────── */
+.progressBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-top: 1px solid #d0d5dc;
+}
+
+.progressDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d0d5dc;
+}
+
+.done {
+  background: #22c55e;
+}
+
+.current {
+  background: #1a5cb5;
+  transform: scale(1.3);
+}
+
+.progressLabel {
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 0.5rem;
+}

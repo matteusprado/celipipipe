@@ -1,0 +1,23 @@
+.wrap {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(26, 35, 50, 0.65);
+}
+
+.label {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.time {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.urgent {
+  border-color: rgba(245, 158, 11, 0.75);
+}

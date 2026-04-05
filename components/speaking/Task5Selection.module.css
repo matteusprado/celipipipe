@@ -1,0 +1,137 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #fff;
+  color: #111;
+}
+
+.questionBox {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 960px;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #d0d5dc;
+}
+
+.infoIcon {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  background: #1a5cb5;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.questionText {
+  margin: 0 0 0.4rem;
+  color: #1a5cb5;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.subText {
+  margin: 0;
+  color: #1a5cb5;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.optionsRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  max-width: 960px;
+}
+
+.optionCard {
+  background: #fff;
+  border: 2px solid #c8d0da;
+  border-radius: 6px;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s;
+  overflow: hidden;
+  font: inherit;
+  color: inherit;
+}
+
+.optionCard:hover {
+  border-color: #1a5cb5;
+}
+
+.selected {
+  border-color: #1a5cb5;
+  box-shadow: 0 0 0 3px rgba(26, 92, 181, 0.25);
+}
+
+.optionImagePlaceholder {
+  width: 100%;
+  height: 160px;
+  background: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionImageIcon {
+  font-size: 4rem;
+  opacity: 0.7;
+}
+
+.optionTitle {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem 0.25rem;
+  color: #333;
+}
+
+.optionDetails {
+  list-style: none;
+  padding: 0 0.75rem 0.75rem;
+  margin: 0;
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.timerWidget {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #e9ecef;
+  border-radius: 6px;
+  padding: 0.85rem 2rem;
+  min-width: 240px;
+}
+
+.clockIcon {
+  font-size: 2rem;
+  opacity: 0.55;
+}
+
+.timerLabel {
+  font-size: 0.9rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.timerCount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a5cb5;
+  line-height: 1;
+}

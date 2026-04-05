@@ -1,0 +1,36 @@
+.card {
+  margin: 1rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+
+@media (min-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+.k {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.v {
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.note {
+  margin: 0.85rem 0 0;
+}
+
+.disclaimer {
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
